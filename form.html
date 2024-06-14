@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário</title>
+  </head>
+  <body>
+    <form>
+      <div>
+        <label for="full name">Nome completo</label>
+        <input id="full name" name="full name" type="text" />
+      </div>
+
+      <div>
+        <label for="email">E-mail</label>
+        <input id="email" name="email" type="email" />
+      </div>
+
+      <div>
+        <label for="birthDate">Data de Nascimento</label>
+        <input id="birthDate" name="birthDate" type="date" />
+      </div>
+      <div>
+        <label for="password">Senha</label>
+        <input id="password" name="passaword" type="password" />
+      </div>
+
+      <div>
+        <label>Gênero</label>
+        <div>
+          <input id="male" name="gender" type="radio" />
+          <label for="male">Masculino</label>
+        </div>
+
+        <div>
+          <input id="female" name="gender" type="radio" />
+          <label for="female">Feminino</label>
+        </div>
+
+        <div>
+          <input id="other" name="gender" type="radio" />
+          <label for="other">Outro</label>
+        </div>
+      </div>
+
+      <div>
+        <label>Animal de Estimação</label>
+      </div>
+
+      <div>
+        <input id="dog" name="dog" type="checkbox" />
+        <label for="dog">Cachorro</label>
+      </div>
+      <div>
+        <input id="cat" name="cat" type="checkbox" />
+        <label for="cat">Gato</label>
+      </div>
+
+      <div>
+        <label>Carros</label>
+      </div>
+
+      <div>
+        <select name="car">
+          <option value="lamborghini">Lamborghini</option>
+          <option value="koenigsegg">Koenigsegg</option>
+          <option value="honda">Honda</option>
+          <option value="wolksvagen">Wolksvagen</option>
+          <option value="void" selected disabled>Selecione essa...</option>
+        </select>
+      </div>
+
+      <div>
+        <label>Sobre mim</label>
+        <div>
+          <textarea name="about me"></textarea>
+        </div>
+      </div>
+
+      <div>
+        <input type="submit" value="Finalizar" />
+        <input type="reset" value="Limpar" />
+      </div>
+    </form>
+  </body>
+</html>
