@@ -1,0 +1,16 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  background-color: #880665;
+  color: white;
+
+  /* padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px; */
+
+  padding: 50px;
+  border: 10px solid lightblue;
+}
